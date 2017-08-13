@@ -1,0 +1,48 @@
+body {
+	padding: 40px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: lightgray;
+	color: white;
+}
+
+.social{
+	width: 40px;
+	height: 40px;
+}
+
+.sidebar-title {
+	font-size: 22px;
+	color: $4aaaa5;
+}
+
+#name {
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+}
+
+#links {
+	float: right;
+	color: lightgray;
+}
+
+#about {
+	color: #4aaaa5;
+}
+
+#profilepic {
+	margin: 20px;
+	float: left;
+}
+
+#smallp {
+	margin: 10px;
+}
