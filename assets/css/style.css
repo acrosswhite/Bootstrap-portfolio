@@ -1,7 +1,5 @@
 body {
-	padding: 40px;
-	width: 960px;
-	margin: 0 auto;
+
 }
 
 footer {
@@ -11,11 +9,53 @@ footer {
 	padding: 20px;
 	background-color: lightgray;
 	color: white;
+	text-align: center;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: 5px;
+}
+
+textarea[name=message]{
+	height: 300px;
+	width: 100%;
+	line-height: 1.25;
+	margin: 8px 0;
+	padding: 20px, 30px;
+	font-size: 14px;
+	color: lightgray;
+}
+
+a {
+	margin: 8px;
+}
+
+a:link {
+	color: lightgray;
+}
+
+a:visited {
+	color: #777;
+}
+
+a:hover {
+	color: dimgray;
+}
+
+.navbarstyle {
+	border-bottom-style: solid;
+	border-bottom-color: #4aaaa5;
+	border-bottom-width: 5px;
+}
+
+.container {
+	padding-top: 20px;
+	margin: 0 auto;
 }
 
 .social{
 	width: 40px;
 	height: 40px;
+	padding: 10px;
 }
 
 .sidebar-title {
@@ -23,13 +63,21 @@ footer {
 	color: $4aaaa5;
 }
 
-#name {
-	float: left;
+.panel-row-inputs {
+	margin: 10px;
+}
+
+.contact-inputs {
+	width: 100%;
+}
+
+.name-style {
+	height: 100%;
 	color: white;
 	background-color: #4aaaa5;
 }
 
-#links {
+#pagelinks {
 	float: right;
 	color: lightgray;
 }
