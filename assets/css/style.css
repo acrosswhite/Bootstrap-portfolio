@@ -111,10 +111,6 @@ a:hover {
 	text-align: center;
 }
 
-.container2 {
-
-}
-
 .gallery-image {
 	height: 100%;
 	width: 100%
@@ -139,7 +135,8 @@ a:hover {
 }
 
 #paneltop,
-#gallery {
+#gallery,
+#about-me {
 	color: #4aaaa5;
 	font-weight: bold;
 	background-color: white;

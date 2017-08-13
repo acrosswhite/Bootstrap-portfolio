@@ -14,157 +14,103 @@
 
 <body>
 
-<!--navbar outside of main container section-->
+	<!--navbar outside of main container section-->
 	<nav class="navbar navbar-default navbar-static-top navbarstyle">
 	  <div class="container">
 	    <div class="navbar-left name-style" id="yourname">Ashley Crosswhite</div>
 	    <div class="navbar-right" id="pagelinks">
-	    	<a href="www.about.com">About</a>
-	    	<a href="www.portfolio">Portfolio</a>
-	    	<a href="www.contact.com">Contact</a>
+	    	<a href="index.html">About</a>
+	    	<a href="gallery.html">Portfolio</a>
+	    	<a href="contact.html">Contact</a>
 	    </div>
 	  </div>
 	</nav>
 
 
-<section class="wrapper">
+<section class="container">
 		
 	<div class="row">
-
 		<div class="col-md-8">
-
-			<div class="panel panel-default">
-			  <div class="panel-heading">
-			    <h3 class="panel-title" id="about">About Me</h3>
-			    <br><br>
-			  </div>
-		  	</div>
-
-		<div class="panel-body about-panel">
-
-			<img id="profilepic" src="./assets/images/20668038_10159055438245526_158236025_n.jpg" alt="Ashley" width=170 height=135 align="left">
-
-			<p id="smallp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt enim, pulvinar ullamcorper ipsum ultrices eu. Curabitur ullamcorper lorem ut commodo maximus. Phasellus rhoncus ut eros sed varius. In a nunc at leo posuere porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla non erat molestie, porttitor odio eget, accumsan tellus. Fusce congue eleifend consectetur. </p>
-		</div>
-	</div>
-
-
-	<div class="col-md-4">
-
-		<div class="panel panel-default contact-panel">
-
-		  <div class="panel-heading">
-		    <h3 class="panel-title sidebar-title">Contact Me
-		    </h3>
-		  </div>
-
-		  <div class="panel-body contact-links">
-		    <div class="col-md-1">
-				<a href="https://github.com/acrosswhite">
-				<img src="./assets/images/GitHub.png" alt="GitHub" border=0 class="social">
-				</a>
+		<div class="row about-row">
+			<div class="panel panel-default" id="about-me">
+				<div class="panel-body">
+			About Me
+				</div>
 			</div>
-			<div class="col-md-1">
-				<a href="https://www.linkedin.com/in/ashley-crosswhite-10515174">
-				<img src="./assets/images/LinkedIn.png" alt="LinkedIn" border=0 class="social">
-				</a>
-			</div>
-			<div class="col-md-1">
-				<a href="https://stackoverflow.com/users/8387528/ashley-c?tab=profile">
-				<img src="./assets/images/stackoverflow.png" alt="stackoverflow" border=0 class="social">
-				</a>
-			</div>
-		  </div>
-
-		</div>
 		</div>
 
-	</div>
-	  	
+	<section class="about-content">
+
 		<div class="row">
-			<div class="col-md-8">
+		  <div class="panel panel-default">
+			<div class="panel-body">
 
-			<p>Suspendisse scelerisque dolor eget cursus venenatis. Suspendisse in nisl ac arcu commodo pretium fermentum vel dolor. Vestibulum porta magna vitae ligula luctus, at interdum lacus porta. Maecenas sed quam ligula. Nulla a elementum nulla, eu tempor felis. Quisque nec tincidunt tortor. Maecenas rhoncus fringilla purus, non vehicula ante porttitor id. Sed aliquam laoreet metus at euismod.
-			</p>
-			<br>
-			<br>
-			</div>
+				<div class="col-md-3">			  
+			    <a href="#" class="thumbnail">
+			      <img src="assets/images/20668038_10159055438245526_158236025_n.jpg" alt="Ashley">
+			    </a>
+			  </div>
 
+				<div class="col-md-9 about-text">
+					<p>Cupcake ipsum dolor sit amet pudding marshmallow. Caramels I love topping. Tiramisu sugar plum chocolate cake dragée cookie jelly-o I love. Tootsie roll biscuit wafer apple pie jujubes caramels croissant soufflé. Topping biscuit jelly beans cake sesame snaps soufflé marzipan. Liquorice powder gummi bears lemon drops cookie gingerbread fruitcake. Cake brownie I love jelly dragée. Brownie muffin I love. Cake I love jelly macaroon gummi bears candy. Carrot cake jujubes pastry carrot cake apple pie. </p>
+				</div>
 		</div>
 
-
-		
-
-	<!--is with nav bar
-		<header>
-			<h1 id="name">
-			Ashley Crosswhite
-			</h1>
-
-			<div id="links">
-				<div id="a">
-				<a href="index.html">About</a>
-				</div>
-				<div id="p">
-				<a href="gallery.html">Portfolio</a>
-				</div>
-				<div id="c">
-				<a href="contactme.html">Contact</a>
-				</div>
-			</div>
-
-		</header>-->
-
-		<!-- insert a container or wrapper
-		then insert a panel?
-		inside panel set two rows second row with two columns one for pic and one for text
-		to the right of panel (2/3 page) insert sidebar
-		sidebar needs two rows, second row has 3 columns
-		-->
-		<!--<section class="main-content">
-			<div id="about">
-				<h1>About Me</h1>
-			</div>
-
-			<div id="description">
-				
+		<div class="row">
+		<div class="col-md-1"></div>
+			<div class="col-md-10">
 				<p>
-
-				<img id="profilepic" src="./assets/images/20668038_10159055438245526_158236025_n.jpg" alt="Ashley" width=170 height=135 align="left">
-
-				
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt enim, pulvinar ullamcorper ipsum ultrices eu. Curabitur ullamcorper lorem ut commodo maximus. Phasellus rhoncus ut eros sed varius. In a nunc at leo posuere porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla non erat molestie, porttitor odio eget, accumsan tellus. Fusce congue eleifend consectetur. </p>
-
-
-				<p>Suspendisse scelerisque dolor eget cursus venenatis. Suspendisse in nisl ac arcu commodo pretium fermentum vel dolor. Vestibulum porta magna vitae ligula luctus, at interdum lacus porta. Maecenas sed quam ligula. Nulla a elementum nulla, eu tempor felis. Quisque nec tincidunt tortor. Maecenas rhoncus fringilla purus, non vehicula ante porttitor id. Sed aliquam laoreet metus at euismod.
-				</p>
-
-			</div>-->
-
-			<!--<div id="connect">
-				<h1 id="connectheader">Connect With Me</h1>
-					<ul>
-						<li><a href="https://github.com/acrosswhite">
-						<img src="./assets/images/GitHub.png" alt="GitHub" border=0>
-						</a></li>
-						<li><a href="https://www.linkedin.com/in/ashley-crosswhite-10515174">
-						<img src="./assets/images/LinkedIn.png" alt="LinkedIn" border=0>
-						</a></li>
-						<li><a href="https://stackoverflow.com/users/8387528/ashley-c?tab=profile">
-						<img src="./assets/images/stackoverflow.png" alt="stackoverflow" border=0>
-						</a></li>
-					</ul>
+				Brownie muffin I love. Cake I love jelly macaroon gummi bears candy. I love gingerbread carrot cake cookie gummies macaroon sesame snaps. Tart danish I love marshmallow lemon drops. Carrot cake jujubes pastry carrot cake apple pie. Cake sugar plum I love brownie tart jelly beans cake sesame snaps. Cheesecake cake caramels chupa chups halvah. I love icing I love sugar plum lemon drops wafer marzipan. Macaroon sugar plum toffee tart I love I love I love chocolate.</p>
+				<br><br>
 			</div>
+			</div>
+		</div>
+	</div>
 
-</section>-->
+	</section>
+		</div>
+			<!--start sidebar-->
+			<div class="col-md-4">
+				<div class="panel panel-default">
+				  <div class="panel-heading" id="paneltop">Connect With Me</div>
 
-		<footer>
+				  <div class="panel-body">
+				  	<div class="row">
+
+				  	<!--sidebar content-->
+
+					<div class="col-sm-4">
+				    <a href="https://github.com/acrosswhite" class=>
+					<img src="./assets/images/GitHub.png" alt="GitHub" border=0 class="social">
+					</a>
+					</div>
+
+					<div class="col-sm-4">
+					<a href="https://www.linkedin.com/in/ashley-crosswhite-10515174">
+					<img src="./assets/images/LinkedIn.png" alt="LinkedIn" border=0 class="social">
+					</a>
+					</div>
+
+					<div class="col-sm-4">
+					<a href="https://stackoverflow.com/users/8387528/ashley-c?tab=profile">
+					<img src="./assets/images/stackoverflow.png" alt="stackoverflow" border=0 class="social">
+					</a>
+					</div>
+
+					</div>	
+				  </div>
+				</div>
+			</div>
+			<!--end sidebar-->
+		</div>
+
+	</section>
+
+	<footer>
 		<div class="container2">
 			&copy; Copyright Me
 		</div>
-		</footer>
-
-</section>
+	</footer>
 
 </body>
 
