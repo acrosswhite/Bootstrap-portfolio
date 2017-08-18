@@ -116,6 +116,18 @@ a:hover {
 	width: 100%
 }
 
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
 #pagelinks {
 	float: right;
 	color: lightgray;
