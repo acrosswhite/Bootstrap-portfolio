@@ -3,9 +3,7 @@ body {
 	font-size: 16px;
 	background-color: #fff;
 	color: #777;
-	border-color: #ddd;
-	background-repeat: repeat;
-	background-image: url("../images/topography.png");
+
 
 }
 
@@ -14,12 +12,12 @@ footer {
 	bottom: 0;
 	width: 100%;
 	padding: 20px;
-	background-color: darkgray;
-	color: white;
+	/*background-color: darkgray;*/
+	color: darkgrey;
 	text-align: center;
-	border-top-color: #4aaaa5;
+	/*border-top-color: black;
 	border-top-style: solid;
-	border-top-width: 5px;
+	border-top-width: 5px;*/
 }
 
 textarea[name=message]{
@@ -49,15 +47,20 @@ a:hover {
 }
 
 .navbarstyle {
-	border-bottom-style: solid;
-	border-bottom-color: #4aaaa5;
-	border-bottom-width: 5px;
+	/*border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 5px;*/
 	background-color: white;
+	border-style: none;
 }
 
 .container {
 	padding-top: 20px;
 	margin: 0 auto;
+}
+
+.welcome {
+	padding: 50px;
 }
 
 .imageblock {
@@ -72,7 +75,7 @@ a:hover {
 
 .sidebar-title {
 	font-size: 22px;
-	color: $4aaaa5;
+	color: black;
 }
 
 .panel-row-inputs {
@@ -87,28 +90,34 @@ a:hover {
 	margin: -20px;
 	padding: 10px;
 	height: 50px;
-	color: white;
-	background-color: #4aaaa5;
+	color: black;
 }
 
 .submit-button {
-	background-color: #4aaaa5;
+	background-color: darkgrey;
 	color: white;
-	padding: 10px;
+	padding: 20px;
+	font-size: 16px;
 }
 
 .thumbnail {
 	position: relative;
 }
 
+.skills {
+	text-align: center;
+}
+
 .desc {
-	background-color: #4aaaa5;
+	background-color: #303845;
 	color: white;
 	position: absolute;
-	top: 75%;
-	width: 100%;
+	top: 80%;
+	width: 98%;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
+	padding: 10px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .gallery-image {
@@ -128,13 +137,30 @@ a:hover {
   color: inherit;
 }
 
+.icons {
+	padding-bottom: 40px;
+}
+
+.contact-fields {
+	padding-top: 5px;
+}
+
+#jumbotron-style {
+	background: url("../images/2017-07-13 20.05.39.jpg");
+	color: white;
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px;
+	padding: 20%;
+}
+
 #pagelinks {
 	float: right;
 	color: lightgray;
 }
 
 #about {
-	color: #4aaaa5;
+	color: black;
 }
 
 #profilepic {
@@ -149,8 +175,80 @@ a:hover {
 #paneltop,
 #gallery,
 #about-me {
-	color: #4aaaa5;
+	color: black;
 	font-weight: bold;
 	background-color: white;
 	font-size: 24px;
 }
+
+/* ============================================================
+  SECTIONS PARALLAX
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-3 {
+  background-image: url("../images/2017-05-11 19.41.58.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../images/2017-07-11 18.36.51.jpg");
+}
+section.module.parallax-1 {
+  background-image: url("../images/2017-07-13 20.05.39.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../images/2015-05-23 19.38.33.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+

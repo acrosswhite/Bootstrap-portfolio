@@ -12,108 +12,167 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!--the animate css borrowed from daniel eden (daneden.github.io)-->
 	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+	 <!-- js -->
+  	<script src="js/modernizr.js"></script>
 </head>
 
 <body>
 
+<div class="wrapper">
+
+<div class="container-top">
 	<!--navbar outside of main container section-->
 	<nav class="navbar navbar-default navbar-static-top navbarstyle">
 	  <div class="container">
-	    <div class="navbar-left name-style" id="yourname">Ashley Crosswhite</div>
 	    <div class="navbar-right" id="pagelinks">
 	    	<a href="index.html">About</a>
 	    	<a href="gallery.html">Portfolio</a>
-	    	<a href="contact.html">Contact</a>
 	    </div>
 	  </div>
 	</nav>
+</div>
 
+<main>
 
-<section class="container">
-		
-	<div class="row">
-		<div class="col-md-8">
-		<div class="row about-row">
-			<div class="panel panel-default" id="about-me">
-				<div class="panel-body">
-			About Me
-				</div>
-			</div>
-		</div>
-
-	<section class="about-content">
-
-		<div class="row">
-		  <div class="panel panel-default">
-			<div class="panel-body">
-
-				<div class="col-md-3">			  
-			    <a href="#" class="thumbnail">
-			      <img src="assets/images/20668038_10159055438245526_158236025_n.jpg" alt="Ashley">
-			    </a>
-			  </div>
-
-				<div class="col-md-9 about-text">
-					<p class="typl8-drop-cap">Cupcake ipsum dolor sit amet pudding marshmallow. Caramels I love topping. Tiramisu sugar plum chocolate cake dragée cookie jelly-o I love. Tootsie roll biscuit wafer apple pie jujubes caramels croissant soufflé. Topping biscuit jelly beans cake sesame snaps soufflé marzipan. Liquorice powder gummi bears lemon drops cookie gingerbread fruitcake. Cake brownie I love jelly dragée. Brownie muffin I love. Cake I love jelly macaroon gummi bears candy. Carrot cake jujubes pastry carrot cake apple pie. </p>
-				</div>
-		</div>
-
-		<div class="row">
-		<div class="col-md-1"></div>
-			<div class="col-md-10">
-				<p>
-				Brownie muffin I love. Cake I love jelly macaroon gummi bears candy. I love gingerbread carrot cake cookie gummies macaroon sesame snaps. Tart danish I love marshmallow lemon drops. Carrot cake jujubes pastry carrot cake apple pie. Cake sugar plum I love brownie tart jelly beans cake sesame snaps. Cheesecake cake caramels chupa chups halvah. I love icing I love sugar plum lemon drops wafer marzipan. Macaroon sugar plum toffee tart I love I love I love chocolate.</p>
-				<br><br>
-			</div>
-			</div>
-		</div>
+	<div class="jumbotron" id="jumbotron-style">
+	  <h1>Welcome!</h1>
+	  <p></p>
 	</div>
+		
+
+	<section class="about-content module content">
+
+        <div class="container">
+          <h2>About Me</h2>
+          <p>Hello! I'm Ashley, welcome to my website. </p>
+
+          <p>I love to travel and have seen many great places. All the images on my website are personal photos. My hobbies include reading all genres of books, watching true crime tv, and spending time with my friends and family.</p>
+
+          <p>A bit about my background: I completed my bachelor's degree with honors from the University of Washington. I am a freelance web developer in San Francisco. </p><br>
+        </div>
 
 	</section>
+
+</div>
+</section>
+
+	<section class="module parallax parallax-2">
+		<div class="container">
 		</div>
-			<!--start sidebar-->
-			<div class="col-md-4">
-				<div class="panel panel-default">
-				  <div class="panel-heading" id="paneltop">Connect With Me</div>
+	</section>
 
-				  <div class="panel-body">
-				  	<div class="row">
+     <section class="module content">
+        <div class="container">
+          <h2 class="skills">Skills</h2>
+          <p class="skills">HTML</p>
+          <p class="skills">CSS</p>
+          <p class="skills">JavaScript</p>
+          <p class="skills">APIs</p>
+          <p class="skills">Ajax</p>
+          <p class="skills">Bootstrap</p>
+          <p class="skills">Github</p>
+          <p class="skills">Firebase</p>
+          <p class="skills">CRM</p>
 
-				  	<!--sidebar content-->
+          <p></p><br>
+        </div>
+     </section>
 
-					<div class="col-sm-4">
-				    <a href="https://github.com/acrosswhite">
-					<img src="./assets/images/GitHub.png" alt="GitHub" border=0 class="social wobble">
-					</a>
-					</div>
 
-					<div class="col-sm-4">
-					<a href="https://www.linkedin.com/in/ashley-crosswhite-10515174">
-					<img src="./assets/images/LinkedIn.png" alt="LinkedIn" border=0 class="social swing">
-					</a>
-					</div>
+     <section class="module parallax parallax-3">
+        <div class="container">
+        </div>
+     </section>
 
-					<div class="col-sm-4">
-					<a href="https://stackoverflow.com/users/8387528/ashley-c?tab=profile">
-					<img src="./assets/images/stackoverflow.png" alt="stackoverflow" border=0 class="social jello">
-					</a>
-					</div>
 
-					</div>	
-				  </div>
+     <section class="module content">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-9">
+          <h2>Contact Me</h2>
+          <p>
+          	
+			<form>
+		  	
+		  	<div class="input-group contact-inputs">
+			
+			<div class="row contact-form">
+			<br>
+			<p class="contact-fields">Name:</p>
+			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+			</div>
+
+			<div class="row contact-form contact-fields">
+			<br>
+			 <p class="contact-fields">Email:</p> 
+			 <input type="text" class="form-control" placeholder="Email @example.com" aria-describedby="sizing-addon2">
+			 </div>
+
+			<div class="row message-box">
+			<br>
+			<textarea name="message" form="usrform">Leave your message here...</textarea>
+			</div>
+			
+			<div class="row">
+				<div class="btn-group" role="group" aria-label="...">
+					<button type="button" class="btn btn-default submit-button">Submit</button>
 				</div>
 			</div>
-			<!--end sidebar-->
+
+			</div>
+
+
+		  	</form>
+          </p>
+        
 		</div>
 
+       </div>
+          <p>
+          <div class="row">
+          	<div class="col-sm-3"></div>
+          	<div class="col-sm-3 icons">
+		    <a href="https://github.com/acrosswhite">
+			<img src="./assets/images/git.png" alt="GitHub" border=0 class="social wobble">
+			</a>
+			</div>
+
+			<div class="col-sm-3 icons">
+			<a href="https://www.linkedin.com/in/ashley-crosswhite-10515174">
+			<img src="./assets/images/linkedin copy.png" alt="LinkedIn" border=0 class="social swing">
+			</a>
+			</div>
+
+			<div class="col-sm-3 icons">
+			<a href="https://stackoverflow.com/users/8387528/ashley-c?tab=profile">
+			<img src="./assets/images/so.png" alt="stackoverflow" border=0 class="social jello">
+			</a>
+			</div>
+          <br><br><br><br></p>
+          </div>
+
+        </div>
+
+    <section class="module parallax parallax-4">
+		<div class="container">
+		</div>
 	</section>
+    </section>
+
+</main>
 
 	<footer>
 		<div class="container2">
-			&copy; Copyright Me
-		</div>
+			&copy; Copyright Ashley Crosswhite 2017
+
+		</div>	
+
 	</footer>
 
+
+</div>
 </body>
 
 </html>
